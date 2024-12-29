@@ -1,0 +1,24 @@
+{
+    "name": "rabiul/php-expense-tracker",
+    "description": "A PHP-based expense tracker application with unit tests for reliable expense management.",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rabiul\\PhpExpenseTracker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rabiul",
+            "email": "rabiul53013@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
